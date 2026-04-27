@@ -40,16 +40,32 @@ Ping DMZ from STAFF      	ping 192.168.40.x           	Blocked
 Ping GUEST from STAFF    	ping 192.168.30.x           	Blocked
 Internet from STAFF        	ping 8.8.8.8                Allowed
 
-### Screenshots 
-(To be added)
+### Test 1: STAFF → DMZ (Blocked)
+Command:
+ping 192.168.40.10  
 
-pfSense VLAN configuration
+Result:
+Request timed out ✅ (Blocked as expected)
+--------------------------------------------------
+### Test 2: STAFF → Internet (Allowed)
+Command:
+ping 8.8.8.8  
+
+Result:
+Reply from 8.8.8.8 ✅ (Internet access works)
+
+
+
+### Screenshots 
+
+pfSense Interfaces configuration 
 Firewall rules
 Test results
+Successful/blocked ping tests
 
 ### What I Learned 
-Network segmentation using VLANs
-Firewall rule configuration and ordering
+How VLAN segmentation improves network security
+How firewall rules control traffic between networksng
 Traffic control between network zones
 Troubleshooting virtualization and networking issues
 
@@ -59,8 +75,7 @@ Understanding VLAN vs subnet concepts
 Correct firewall rule configuration
 
 ### Conclusion 
-This project demonstrates practical skills in networking, firewall configuration, and troubleshooting, relevant for IT Support, Network Engineering, and Cybersecurity roles.
-
+This project demonstrates practical skills in network segmentation, firewall configuration, and troubleshooting—key competencies for IT Support, Network Engineering, and Cybersecurity roles.
 
 
 
