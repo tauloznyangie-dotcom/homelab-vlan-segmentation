@@ -17,6 +17,9 @@ pfSense (Firewall/Router)
 VMware Workstation
 Windows 11 (Management PC)
 
+### Network Diagram 
+
+
 ### Network Design 
 Network	           Subnet             	Purpose
 MGMT	        192.168.10.0/24	        Management
