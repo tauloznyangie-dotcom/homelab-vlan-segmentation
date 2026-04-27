@@ -1,5 +1,5 @@
 ### homelab-vlan-segmentation
-VLAN segmentation lab using pfSense and VMware to simulate enterprise network security and traffic isolation
+VLAN segmentation lab using pfSense and VMware to simulate enterprise network security and traffic isolation. Simulated enterprise network using VLAN segmentation and firewall rules to prevent lateral movement and improve security.
 
 ### Overview 
 This project demonstrates how to design and implement VLAN-based network segmentation using pfSense and VMware.
