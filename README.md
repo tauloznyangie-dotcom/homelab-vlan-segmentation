@@ -40,29 +40,13 @@ Ping DMZ from STAFF      	ping 192.168.40.x           	Blocked
 Ping GUEST from STAFF    	ping 192.168.30.x           	Blocked
 Internet from STAFF        	ping 8.8.8.8                Allowed
 
-### Test 1: STAFF → DMZ (Blocked)
-Command:
-ping 192.168.40.10  
-
-Result:
-Request timed out ✅ (Blocked as expected)
---------------------------------------------------
-### Test 2: STAFF → Internet (Allowed)
-Command:
-ping 8.8.8.8  
-
-Result:
-Reply from 8.8.8.8 ✅ (Internet access works)
-
-
-
 ### Screenshots 
 
+# Project Files
+[View all screenshots](Screenshots-lab/)
 
-pfSense Interfaces configuration 
+pfSense VLAN configuration
 Firewall rules
-Screenshots-lab/STAFFInterfaceRules.png
-
 Test results
 Successful/blocked ping tests
 
