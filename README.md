@@ -61,6 +61,8 @@ Reply from 8.8.8.8 ✅ (Internet access works)
 
 pfSense Interfaces configuration 
 Firewall rules
+Screenshots-lab/STAFFInterfaceRules.png
+
 Test results
 Successful/blocked ping tests
 
