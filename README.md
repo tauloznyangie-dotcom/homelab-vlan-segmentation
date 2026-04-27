@@ -18,7 +18,7 @@ VMware Workstation
 Windows 11 (Management PC)
 
 ### Network Diagram 
-
+[Network Diagram](network-diagram.png)
 
 ### Network Design 
 Network	           Subnet             	Purpose
